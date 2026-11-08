@@ -1,0 +1,33 @@
+[33m❯[39m Building...
+[32m✔[39m Building...
+[37m[1mInitial chunk files[22m  [2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m[39m
+[37m[32mchunk-7B2F6HT7.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m184.02 kB[39m[37m[2m | [22m               [36m53.81 kB[39m[37m[39m
+[37m[32mchunk-K7VGVEFY.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m [36m83.78 kB[39m[37m[2m | [22m               [36m21.19 kB[39m[37m[39m
+[37m[32mpolyfills-FFHMD2TL.js[39m[37m[2m | [22m[2mpolyfills[22m             [2m | [22m [36m34.52 kB[39m[37m[2m | [22m               [36m11.28 kB[39m[37m[39m
+[37m[32mstyles-G5FDRI2X.css[39m[37m  [2m | [22m[2mstyles[22m                [2m | [22m  [36m8.06 kB[39m[37m[2m | [22m                [36m2.16 kB[39m[37m[39m
+[37m[32mmain-YXC23WMJ.js[39m[37m     [2m | [22m[2mmain[22m                  [2m | [22m  [36m4.22 kB[39m[37m[2m | [22m                [36m1.66 kB[39m[37m[39m
+[37m[32mchunk-KSJREM2O.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m  [36m1.96 kB[39m[37m[2m | [22m              [36m741 bytes[39m[37m[39m
+[37m[39m
+[37m[1m [22m                    [2m | [22m[1mInitial total[22m         [2m | [22m[1m316.56 kB[22m[2m | [22m               [1m90.85 kB[22m[39m
+[37m[39m
+[37m[1mLazy chunk files[22m     [2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m[39m
+[37m[32mchunk-MQTV7KJW.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m [36m40.13 kB[39m[37m[2m | [22m                [36m8.28 kB[39m[37m[39m
+[37m[32mchunk-SOCHV5CT.js[39m[37m    [2m | [22m[2mvehicles-component[22m    [2m | [22m [36m14.01 kB[39m[37m[2m | [22m                [36m4.02 kB[39m[37m[39m
+[37m[32mchunk-UNB4M4J3.js[39m[37m    [2m | [22m[2mdrivers-component[22m     [2m | [22m [36m10.18 kB[39m[37m[2m | [22m                [36m3.23 kB[39m[37m[39m
+[37m[32mchunk-S336WNJ7.js[39m[37m    [2m | [22m[2musers-component[22m       [2m | [22m  [36m9.68 kB[39m[37m[2m | [22m                [36m3.25 kB[39m[37m[39m
+[37m[32mchunk-K2UGD6JU.js[39m[37m    [2m | [22m[39m[37m[2mdashboard-component[22m   [2m | [22m  [36m4.78 kB[39m[37m[2m | [22m                [36m1.69 kB[39m[37m[39m
+[37m[32mchunk-TDDYJ645.js[39m[37m    [2m | [22m[2mset-password-component[22m[2m | [22m  [36m3.30 kB[39m[37m[2m | [22m                [36m1.39 kB[39m[37m[39m
+[37m[32mchunk-RVLH36MG.js[39m[37m    [2m | [22m[2mmy-vehicle-component[22m  [2m | [22m  [36m2.68 kB[39m[37m[2m | [22m                [36m1.12 kB[39m[37m[39m
+[37m[32mchunk-I4KPIBD7.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m  [36m2.30 kB[39m[37m[2m | [22m              [36m892 bytes[39m[37m[39m
+[37m[32mchunk-QE33G3HG.js[39m[37m    [2m | [22m[2mlogin-component[22m       [2m | [22m  [36m2.07 kB[39m[37m[2m | [22m              [36m954 bytes[39m[37m[39m
+[37m[32mchunk-43ZJLFIZ.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m809 bytes[39m[37m[2m | [22m              [36m809 bytes[39m[37m[39m
+[37m[32mchunk-VT4DJCE4.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m769 bytes[39m[37m[2m | [22m              [36m769 bytes[39m[37m[39m
+[37m[32mchunk-NFOP5M7X.js[39m[37m    [2m | [22m[2mforbidden-component[22m   [2m | [22m[36m595 bytes[39m[37m[2m | [22m              [36m595 bytes[39m[37m[39m
+[37m[32mchunk-755M2QVX.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m562 bytes[39m[37m[2m | [22m              [36m562 bytes[39m[37m[39m
+[37m[32mchunk-DMLQLRWX.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m454 bytes[39m[37m[2m | [22m              [36m454 bytes[39m[37m[39m
+[37m[32mchunk-CXMNAK5D.js[39m[37m    [2m | [22m[2m-[22m                     [2m | [22m[36m340 bytes[39m[37m[2m | [22m              [36m340 bytes[39m[37m[39m
+[37m[39m
+[37mApplication bundle generation complete. [4.867 seconds][39m
+[37m[39m
+[37mOutput location: C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\web[39m
+[37m[39m

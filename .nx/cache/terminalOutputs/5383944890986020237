@@ -1,0 +1,90 @@
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/87d46fea-7251-42a7-a181-f2b1c32edbfe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/87d46fea-7251-42a7-a181-f2b1c32edbfe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/learn/getting-started/debugging[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot find module 'C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\api\lib\worker.js'[39m[22m
+[1m[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)[39m[22m
+[1m[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)[39m[22m
+[1m[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)[39m[22m
+[1m[31m    at Function._load (node:internal/modules/cjs/loader:1216:25)[39m[22m
+[1m[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)[39m[22m
+[1m[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/main/worker_thread:226:26)[39m[22m
+[1m[31m    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/67d1f8d9-5560-43d0-aa77-880cd8c67506[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/67d1f8d9-5560-43d0-aa77-880cd8c67506[39m[22m
+[1m[31mFor help, see: https://nodejs.org/learn/getting-started/debugging[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot find module 'C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\api\lib\worker.js'[39m[22m
+[1m[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)[39m[22m
+[1m[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)[39m[22m
+[1m[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)[39m[22m
+[1m[31m    at Function._load (node:internal/modules/cjs/loader:1216:25)[39m[22m
+[1m[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)[39m[22m
+[1m[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/main/worker_thread:226:26)[39m[22m
+[1m[31m    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/90f530ed-960e-426d-9248-421e590e9b06[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90f530ed-960e-426d-9248-421e590e9b06[39m[22m
+[1m[31mFor help, see: https://nodejs.org/learn/getting-started/debugging[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot find module 'C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\api\lib\worker.js'[39m[22m
+[1m[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)[39m[22m
+[1m[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)[39m[22m
+[1m[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)[39m[22m
+[1m[31m    at Function._load (node:internal/modules/cjs/loader:1216:25)[39m[22m
+[1m[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)[39m[22m
+[1m[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/main/worker_thread:226:26)[39m[22m
+[1m[31m    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/4825eb24-89f9-40cf-9620-3fa00b245e7b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4825eb24-89f9-40cf-9620-3fa00b245e7b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/learn/getting-started/debugging[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot find module 'C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\api\lib\worker.js'[39m[22m
+[1m[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)[39m[22m
+[1m[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)[39m[22m
+[1m[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)[39m[22m
+[1m[31m    at Function._load (node:internal/modules/cjs/loader:1216:25)[39m[22m
+[1m[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)[39m[22m
+[1m[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/main/worker_thread:226:26)[39m[22m
+[1m[31m    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)[39m[22m
+[1m[31m    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+C:\Users\GOPI SAINADH\my projects\fleet-pulse\node_modules\@nx\js\src\executors\node\node.impl.js:312
+    throw new Error(`Could not find ${fileToRun}. Make sure your build succeeded.`);
+          ^
+
+Error: Could not find C:\Users\GOPI SAINADH\my projects\fleet-pulse\dist\apps\api\main.js. Make sure your build succeeded.
+    at fileToRunCorrectPath [90m(C:\Users\GOPI SAINADH\my projects\fleet-pulse\[39mnode_modules\[4m@nx\js[24m\src\executors\node\node.impl.js:312:11[90m)[39m
+    at [90mC:\Users\GOPI SAINADH\my projects\fleet-pulse\[39mnode_modules\[4m@nx\js[24m\src\executors\node\node.impl.js:98:49
+    at new Promise (<anonymous>)
+    at Object.start [90m(C:\Users\GOPI SAINADH\my projects\fleet-pulse\[39mnode_modules\[4m@nx\js[24m\src\executors\node\node.impl.js:92:36[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Timeout.processQueue [as _onTimeout] [90m(C:\Users\GOPI SAINADH\my projects\fleet-pulse\[39mnode_modules\[4m@nx\js[24m\src\executors\node\node.impl.js:63:13[90m)[39m
+
+Node.js v22.23.3

@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx run-many -t build",
+    "startTime": "2026-11-08T09:33:31.032Z",
+    "endTime": "2026-11-08T09:33:38.699Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "api:prisma-generate",
+      "target": "prisma-generate",
+      "projectName": "api",
+      "hash": "4454197665682565458",
+      "startTime": "2026-11-08T09:33:31.050Z",
+      "endTime": "2026-11-08T09:33:32.073Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "api:build",
+      "target": "build",
+      "projectName": "api",
+      "hash": "5295841136894077153",
+      "startTime": "2026-11-08T09:33:32.081Z",
+      "endTime": "2026-11-08T09:33:36.231Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "web:build:production",
+      "target": "build",
+      "projectName": "web",
+      "hash": "1851429709441781618",
+      "startTime": "2026-11-08T09:33:31.050Z",
+      "endTime": "2026-11-08T09:33:38.698Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

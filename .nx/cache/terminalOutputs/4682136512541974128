@@ -1,0 +1,41 @@
+[33m>[39m Building...
+[32m√[39m Building...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m             [2m | [22m [36m90.20 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m                [2m | [22m [36m10.34 kB[39m[37m[2m | [22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m                  [2m | [22m  [36m9.82 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-YPQM3Z7H.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m3.50 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-Y5RQAIA6.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m1.50 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m         [2m | [22m[1m115.36 kB[22m[39m
+[37m[39m
+[37m[1mLazy chunk files[22m   [2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[39m
+[37m[32mchunk-3R2ZNZHO.js[39m[37m  [2m | [22m[2mvehicles-component[22m    [2m | [22m [36m34.26 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-NRLEG3EJ.js[39m[37m  [2m | [22m[2mdrivers-component[22m     [2m | [22m [36m23.80 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-HBUUUXNP.js[39m[37m  [2m | [22m[2musers-component[22m       [2m | [22m [36m22.64 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-35O3MBZX.js[39m[37m  [2m | [22m[2mdashboard-component[22m   [2m | [22m [36m13.92 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-E7DZSI7H.js[39m[37m  [2m | [22m[2mmy-vehicle-component[22m  [2m | [22m  [36m7.45 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-JICERJME.js[39m[37m  [2m | [22m[2mset-password-component[22m[2m | [22m  [36m7.38 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-M2K4233Z.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m5.37 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-QLV3U4KY.js[39m[37m  [2m | [22m[2mlogin-component[22m       [2m | [22m  [36m4.44 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-QJBV5Q4B.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m1.68 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-7ARFETGJ.js[39m[37m  [2m | [22m[2mforbidden-component[22[39m[37mm   [2m | [22m  [36m1.53 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-YRMZC2F3.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m1.51 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-GC3VWMBO.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m  [36m1.15 kB[39m[37m[2m | [22m[39m
+[37m[32mchunk-BZRFNFZ5.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m[36m987 bytes[39m[37m[2m | [22m[39m
+[37m[32mchunk-IZJN5AHU.js[39m[37m  [2m | [22m[2m-[22m                     [2m | [22m[36m650 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [10.790 seconds][39m
+[37m[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m9:00:46 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/refresh[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1135:18)
+    at afterConnectMultiple (node:net:1716:7)
+[2m9:23:24 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1135:18)
+    at afterConnectMultiple (node:net:1716:7)

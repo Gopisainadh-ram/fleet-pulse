@@ -1,0 +1,185 @@
+// Fleet-Pulse data model. See docs/DATABASE.md for the diagram and the reasoning.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  MANAGER
+  DRIVER
+  VIEWER
+}
+
+enum VehicleStatus {
+  AVAILABLE
+  IN_USE
+  MAINTENANCE
+  RETIRED
+}
+
+enum VehicleType {
+  SEDAN
+  SUV
+  VAN
+  TRUCK
+  BUS
+  MOTORCYCLE
+}
+
+enum FuelType {
+  PETROL
+  DIESEL
+  ELECTRIC
+  HYBRID
+  CNG
+}
+
+enum DriverStatus {
+  ACTIVE
+  ON_LEAVE
+  SUSPENDED
+}
+
+model User {
+  id               String   @id @default(uuid())
+  email            String   @unique
+  passwordHash     String?
+  firstName        String
+  lastName         String
+  role             Role
+  isActive         Boolean  @default(true)
+  // Brute-force protection (see docs/SECURITY.md, A07)
+  failedLoginCount Int      @default(0)
+  lockedUntil      DateTime?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  driverProfile  Driver?
+  refreshTokens  RefreshToken[]
+  passwordSetupToken PasswordSetupToken?
+  auditLogs      AuditLog[]
+  assignmentsMade VehicleAssignment[] @relation("AssignedBy")
+
+  @@index([role, isActive])
+  @@map("users")
+}
+
+model PasswordSetupToken {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  tokenHash String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([expiresAt])
+  @@map("password_setup_tokens")
+}
+
+// One row per refresh token we've handed out. The row id is the "jti" inside the JWT.
+model RefreshToken {
+  id        String    @id @default(uuid())
+  userId    String
+  expiresAt DateTime
+  revokedAt DateTime?
+  userAgent String?
+  ip        String?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, revokedAt])
+  @@index([expiresAt])
+  @@map("refresh_tokens")
+}
+
+model Driver {
+  id            String       @id @default(uuid())
+  // Optional link to a login account (needed for the DRIVER role to sign in)
+  userId        String?      @unique
+  firstName     String
+  lastName      String
+  email         String       @unique
+  phone         String?
+  licenseNumber String       @unique
+  licenseClass  String
+  licenseExpiry DateTime
+  status        DriverStatus @default(ACTIVE)
+  hireDate      DateTime
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  user        User?               @relation(fields: [userId], references: [id], onDelete: SetNull)
+  assignments VehicleAssignment[]
+
+  @@index([status, licenseExpiry])
+  @@index([lastName, firstName])
+  @@map("drivers")
+}
+
+model Vehicle {
+  id              String        @id @default(uuid())
+  plateNumber     String        @unique
+  vin             String        @unique
+  make            String
+  model           String
+  year            Int
+  type            VehicleType
+  fuelType        FuelType
+  status          VehicleStatus @default(AVAILABLE)
+  odometerKm      Int           @default(0)
+  insuranceExpiry DateTime
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  assignments VehicleAssignment[]
+
+  @@index([status, type])
+  @@index([insuranceExpiry])
+  @@map("vehicles")
+}
+
+// History of who drove what. A row with unassignedAt = null is the CURRENT assignment.
+model VehicleAssignment {
+  id           String    @id @default(uuid())
+  vehicleId    String
+  driverId     String
+  assignedById String
+  assignedAt   DateTime  @default(now())
+  unassignedAt DateTime?
+  notes        String?
+
+  vehicle    Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Restrict)
+  driver     Driver  @relation(fields: [driverId], references: [id], onDelete: Restrict)
+  assignedBy User    @relation("AssignedBy", fields: [assignedById], references: [id], onDelete: Restrict)
+
+  @@index([vehicleId, unassignedAt])
+  @@index([driverId, unassignedAt])
+  @@index([assignedAt])
+  @@map("vehicle_assignments")
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  userId    String?
+  action    String
+  entity    String
+  entityId  String?
+  meta      Json?
+  ip        String?
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([entity, entityId])
+  @@index([userId, createdAt])
+  @@map("audit_logs")
+}

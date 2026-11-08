@@ -1,0 +1,11 @@
+[2m> [22mprisma generate
+
+[2mEnvironment variables loaded from .env[22m
+[2mPrisma schema loaded from apps\api\prisma\schema.prisma[22m
+
+✔ Generated [1mPrisma Client[22m (v6.1.0)[2m to .\node_modules\@prisma\client[22m in 95ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want real-time updates to your database without manual polling? Discover how with Pulse: https://pris.ly/tip-0-pulse
+

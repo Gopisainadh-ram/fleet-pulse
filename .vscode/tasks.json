@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Fleet Pulse API",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "start:api"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Fleet Pulse web",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "start:web"],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

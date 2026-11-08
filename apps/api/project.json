@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/api/src",
+  "projectType": "application",
+  "tags": ["scope:api", "type:app"],
+  "targets": {
+    "prisma-generate": {
+      "executor": "nx:run-commands",
+      "options": { "command": "prisma generate", "cwd": "{workspaceRoot}" }
+    },
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "dependsOn": ["prisma-generate"],
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "platform": "node",
+        "format": ["cjs"],
+        "bundle": true,
+        "thirdParty": false,
+        "outputPath": "dist/apps/api",
+        "main": "apps/api/src/main.ts",
+        "tsConfig": "apps/api/tsconfig.app.json"
+      }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx watch --tsconfig tsconfig.base.json apps/api/src/main.ts",
+        "cwd": "{workspaceRoot}"
+      }
+    }
+  }
+}

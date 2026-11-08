@@ -1,0 +1,737 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.3.0",
+  "pathMappings": {
+    "@fleet-pulse/shared": [
+      "./libs/shared/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "17338493911800080978"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_platform-browser.js",
+        "hash": "10574373999864481043"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-OB3TT5QY.js",
+        "hash": "8279066883369829802"
+      },
+      {
+        "file": "docs/DATABASE.md",
+        "hash": "3573204346876849293"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-5TID76VL.js",
+        "hash": "959520220146214664"
+      },
+      {
+        "file": "docs/API.md",
+        "hash": "16523737783598849052"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/_metadata.json",
+        "hash": "9022189543600817987"
+      },
+      {
+        "file": "docs/SECURITY.md",
+        "hash": "7588994513023044061"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "11821568732038482552"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_common_http.js",
+        "hash": "9620729848630079073"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_common_http.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "10821802694865559218"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_platform-browser.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-HK5MR6SF.js.map",
+        "hash": "9578362799893025952"
+      },
+      {
+        "file": "docs/GETTING_STARTED.md",
+        "hash": "18161810848144022250"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_forms.js.map",
+        "hash": "14961078590827449938"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-7EDW3FV7.js",
+        "hash": "1775798358552810764"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_core_rxjs-interop.js",
+        "hash": "1448768403105340217"
+      },
+      {
+        "file": "nx.json",
+        "hash": "8475736278046036951"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/rxjs.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "README.md",
+        "hash": "18075296010424566185"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_router.js",
+        "hash": "13860164131821495791"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_core_rxjs-interop.js.map",
+        "hash": "15584043343697728299"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/rxjs.js",
+        "hash": "223180543598661473"
+      },
+      {
+        "file": "package.json",
+        "hash": "15782729717491404434"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-5TID76VL.js.map",
+        "hash": "9236120908704178734"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_common.js",
+        "hash": "8722554077171487501"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_router.js.map",
+        "hash": "2389297730276500073"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1864467470575017830"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/.tsbuildinfo",
+        "hash": "9525807280786977512"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10356121960055411092"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-M4Z47PIG.js.map",
+        "hash": "2951446579994381996"
+      },
+      {
+        "file": "docs/CONTRIBUTING.md",
+        "hash": "9171348411254853529"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-M4Z47PIG.js",
+        "hash": "252633091218386330"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9375564877748484991"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/angular-compiler.db-lock",
+        "hash": "10309587130581133011"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_forms.js",
+        "hash": "16296992655515649068"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/angular-compiler.db",
+        "hash": "10936922839790666082"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_common.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17252055763673677189"
+      },
+      {
+        "file": ".env.example",
+        "hash": "4046253791996829886"
+      },
+      {
+        "file": "docs/RBAC.md",
+        "hash": "1516026715048609686"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-OB3TT5QY.js.map",
+        "hash": "4103126976208420569"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_core.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-7EDW3FV7.js.map",
+        "hash": "9199022709576688151"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/chunk-HK5MR6SF.js",
+        "hash": "6811280082057982145"
+      },
+      {
+        "file": ".angular/cache/19.0.6/web/vite/deps/@angular_core.js",
+        "hash": "11768324010755151278"
+      }
+    ],
+    "projectFileMap": {
+      "shared": [
+        {
+          "file": "libs/shared/README.md",
+          "hash": "1158612153062238089"
+        },
+        {
+          "file": "libs/shared/project.json",
+          "hash": "8988598999441632085"
+        },
+        {
+          "file": "libs/shared/src/index.ts",
+          "hash": "1772027833104832360"
+        },
+        {
+          "file": "libs/shared/src/lib/dto.ts",
+          "hash": "14154906961767436493"
+        },
+        {
+          "file": "libs/shared/src/lib/permissions.ts",
+          "hash": "5961101543196324688"
+        },
+        {
+          "file": "libs/shared/src/lib/roles.ts",
+          "hash": "17290189993311472001"
+        },
+        {
+          "file": "libs/shared/tsconfig.json",
+          "hash": "6198056574939810590"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/README.md",
+          "hash": "10055267194004397554"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "734428441633082869"
+        },
+        {
+          "file": "apps/web/proxy.conf.json",
+          "hash": "7740023976500524898"
+        },
+        {
+          "file": "apps/web/src/app/app.component.ts",
+          "hash": "10727094785756914606",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.config.ts",
+          "hash": "2714325165158482278",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.routes.ts",
+          "hash": "13352696907929938537",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api.ts",
+          "hash": "1114538650636924288",
+          "deps": [
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth.interceptor.ts",
+          "hash": "9258690745309825015",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth.service.ts",
+          "hash": "6116357783173457807",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/guards.ts",
+          "hash": "13348701025015945816",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/has-permission.directive.ts",
+          "hash": "16728705214063049331",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/forbidden.component.ts",
+          "hash": "13179893300556615430",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/login.component.ts",
+          "hash": "13397969687003777465",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/set-password.component.ts",
+          "hash": "3780736911685830996",
+          "deps": [
+            "npm:@angular/forms",
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/dashboard/dashboard.component.ts",
+          "hash": "1597722270957966968",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/drivers/driver.service.ts",
+          "hash": "8184014416743569710",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/drivers/drivers.component.ts",
+          "hash": "15136237489634305850",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/my-vehicle/my-vehicle.component.ts",
+          "hash": "5328852906092457333",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/users/users.component.ts",
+          "hash": "8361612416887975867",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/vehicles/vehicle.service.ts",
+          "hash": "6478800760609999553",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/vehicles/vehicles.component.ts",
+          "hash": "8118996720228861820",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/shell.component.ts",
+          "hash": "13570944663786734137",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/badge.component.ts",
+          "hash": "12083374593344851754",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/modal.component.ts",
+          "hash": "14888179841581193215",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/pager.component.ts",
+          "hash": "14935473377448883275",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/index.html",
+          "hash": "8569605844358315754"
+        },
+        {
+          "file": "apps/web/src/main.ts",
+          "hash": "14420088177726562137",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/web/src/styles.css",
+          "hash": "436425672703421899"
+        },
+        {
+          "file": "apps/web/tsconfig.app.json",
+          "hash": "17543202824379023760"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "7087476576339769367"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/README.md",
+          "hash": "5304467276865028390"
+        },
+        {
+          "file": "apps/api/prisma/migrations/20261029064521_first_migration/migration.sql",
+          "hash": "5044061051459136676"
+        },
+        {
+          "file": "apps/api/prisma/migrations/20261029120000_password_setup_tokens/migration.sql",
+          "hash": "11987144724993207576"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "17579406468909820784"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "10018549791424248076"
+        },
+        {
+          "file": "apps/api/prisma/seed.ts",
+          "hash": "885232186048354771",
+          "deps": [
+            "npm:@prisma/client",
+            "npm:bcryptjs",
+            "npm:dotenv",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/prisma/tsconfig.json",
+          "hash": "9720297565109513309"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "8290179381513275629"
+        },
+        {
+          "file": "apps/api/src/app.ts",
+          "hash": "10650439217886059898",
+          "deps": [
+            "npm:express",
+            "npm:helmet",
+            "npm:cors",
+            "npm:cookie-parser",
+            "npm:pino-http"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/audit.ts",
+          "hash": "17413220484663981443",
+          "deps": [
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/errors.ts",
+          "hash": "4518318168915400158"
+        },
+        {
+          "file": "apps/api/src/common/logger.ts",
+          "hash": "2915615997433227802",
+          "deps": [
+            "npm:pino"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/mailer.ts",
+          "hash": "21412331402812931",
+          "deps": [
+            "npm:nodemailer"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/authenticate.ts",
+          "hash": "7621289677097982470",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/authorize.ts",
+          "hash": "10594672729813370420",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/csrfHeader.ts",
+          "hash": "16779035869240208380",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/errorHandler.ts",
+          "hash": "18435248134807318844",
+          "deps": [
+            "npm:express",
+            "npm:zod",
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/rateLimit.ts",
+          "hash": "13962767421931964414",
+          "deps": [
+            "npm:express-rate-limit"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/middleware/validate.ts",
+          "hash": "8557372383015027596",
+          "deps": [
+            "npm:express",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/password.ts",
+          "hash": "15372947772036232651",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/prisma.ts",
+          "hash": "13587362068532094942",
+          "deps": [
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/types.ts",
+          "hash": "7774137081274165782",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/common/utils/dates.ts",
+          "hash": "6679053075123557198"
+        },
+        {
+          "file": "apps/api/src/common/utils/pagination.ts",
+          "hash": "8948485983522617294",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/config/env.ts",
+          "hash": "14110819027318478179",
+          "deps": [
+            "npm:dotenv",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "811080424053584744"
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "16995416020574860886",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.routes.ts",
+          "hash": "1898214428193170683",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.schema.ts",
+          "hash": "9161552713012665166",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "15984399941521210452",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/dashboard/dashboard.routes.ts",
+          "hash": "13291027131732933424",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/dashboard/dashboard.service.ts",
+          "hash": "9210800975544843709",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/drivers/driver.controller.ts",
+          "hash": "4181724120169464212",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/drivers/driver.routes.ts",
+          "hash": "34253478515611747",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/drivers/driver.schema.ts",
+          "hash": "11508462107838664555",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/drivers/driver.service.ts",
+          "hash": "14042707203672587784",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/user.controller.ts",
+          "hash": "15858324442063960862",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/user.routes.ts",
+          "hash": "3217826130894270806",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/user.schema.ts",
+          "hash": "10313011474264650881",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/user.service.ts",
+          "hash": "4217942054706478917",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/vehicles/vehicle.controller.ts",
+          "hash": "779482638921237004",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/vehicles/vehicle.routes.ts",
+          "hash": "15897238261805068131",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/vehicles/vehicle.schema.ts",
+          "hash": "171910995562196447",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/vehicles/vehicle.service.ts",
+          "hash": "8789691922348815913",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "17128892099553527691"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "12809488642886974886"
+        }
+      ]
+    }
+  }
+}
